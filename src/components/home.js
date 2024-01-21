@@ -12,7 +12,7 @@ import Video from "./home/video"
 import { HomeStyle } from "./styles/home"
 import StyledCompaniesMarquee from "../components/home/companies"
 import StyledInfoComponent from "../components/home/paperCount"
-
+import Iframe from "./home/iframe"
 const Home = () => {
  const [events, setEvents] = useState()
  const [notices, setNotices] = useState()
@@ -244,6 +244,7 @@ const Home = () => {
    <div id="papercount" style={{ paddingTop: "40px" }}>
     <StyledInfoComponent />
    </div>
+   <Iframe />
    <Innovation />
    <div id="companies" style={{ paddingTop: "20px" }}>
     <StyledCompaniesMarquee />
