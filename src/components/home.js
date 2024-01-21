@@ -10,7 +10,7 @@ import Innovation from "./home/Innovation"
 import GalleryComp from "./home/gallery"
 import Video from "./home/video"
 import { HomeStyle } from "./styles/home"
-
+import Iframe from "./home/iframe"
 const Home = () => {
  const [events, setEvents] = useState()
  const [notices, setNotices] = useState()
@@ -239,6 +239,7 @@ const Home = () => {
      </div>
     )}
    </div>
+   <Iframe />
    <Innovation />
    <div id="news">
     <div
