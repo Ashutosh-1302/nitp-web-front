@@ -10,6 +10,8 @@ import Innovation from "./home/Innovation"
 import GalleryComp from "./home/gallery"
 import Video from "./home/video"
 import { HomeStyle } from "./styles/home"
+import StyledCompaniesMarquee from "../components/home/companies"
+import StyledInfoComponent from "../components/home/paperCount"
 
 const Home = () => {
  const [events, setEvents] = useState()
@@ -239,7 +241,13 @@ const Home = () => {
      </div>
     )}
    </div>
+   <div id="papercount" style={{ paddingTop: "40px" }}>
+    <StyledInfoComponent />
+   </div>
    <Innovation />
+   <div id="companies" style={{ paddingTop: "20px" }}>
+    <StyledCompaniesMarquee />
+   </div>
    <div id="news">
     <div
      data-aos="zoom-in"
