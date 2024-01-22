@@ -10,6 +10,7 @@ import Innovation from "./home/Innovation"
 import GalleryComp from "./home/gallery"
 import Video from "./home/video"
 import { HomeStyle } from "./styles/home"
+import Research from "./home/Research"
 
 const Home = () => {
  const [events, setEvents] = useState()
@@ -240,6 +241,7 @@ const Home = () => {
     )}
    </div>
    <Innovation />
+   <Research/>
    <div id="news">
     <div
      data-aos="zoom-in"
