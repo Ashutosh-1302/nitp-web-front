@@ -10,6 +10,8 @@ import Innovation from "./home/Innovation"
 import GalleryComp from "./home/gallery"
 import Video from "./home/video"
 import { HomeStyle } from "./styles/home"
+import Research from "./home/Research"
+
 import Iframe from "./home/iframe"
 const Home = () => {
  const [events, setEvents] = useState()
@@ -241,6 +243,7 @@ const Home = () => {
    </div>
    <Iframe />
    <Innovation />
+   <Research/>
    <div id="news">
     <div
      data-aos="zoom-in"
