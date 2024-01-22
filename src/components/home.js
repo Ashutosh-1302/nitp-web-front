@@ -12,6 +12,7 @@ import Video from "./home/video"
 import { HomeStyle } from "./styles/home"
 import Research from "./home/Research"
 
+import Iframe from "./home/iframe"
 const Home = () => {
  const [events, setEvents] = useState()
  const [notices, setNotices] = useState()
@@ -240,6 +241,7 @@ const Home = () => {
      </div>
     )}
    </div>
+   <Iframe />
    <Innovation />
    <Research/>
    <div id="news">
