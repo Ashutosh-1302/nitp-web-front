@@ -12,6 +12,8 @@ import Video from "./home/video"
 import { HomeStyle } from "./styles/home"
 import StyledCompaniesMarquee from "../components/home/companies"
 import StyledInfoComponent from "../components/home/paperCount"
+import Research from "./home/Research"
+
 import Iframe from "./home/iframe"
 const Home = () => {
  const [events, setEvents] = useState()
@@ -249,6 +251,7 @@ const Home = () => {
    <div id="companies" style={{ paddingTop: "20px" }}>
     <StyledCompaniesMarquee />
    </div>
+   <Research />
    <div id="news">
     <div
      data-aos="zoom-in"
